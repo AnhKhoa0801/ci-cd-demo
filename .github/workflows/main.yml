@@ -6,7 +6,7 @@ on:
       - master
 env:
   AZURE_WEBAPP_NAME: ci-cd-demo
-  AZURE_WEBAPP__PACKAGE_PATH: "./publish"
+  AZURE_WEBAPP__PACKAGE_PATH: './publish'
 jobs:
   publish:
     runs-on: ubuntu-latest
