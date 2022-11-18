@@ -16,6 +16,8 @@ app.UseSwaggerUI();
 app.MapGet("time/utc", () => Results.Ok(DateTime.Now));
 app.MapGet("time2/utc", () => Results.Ok(DateTime.Now));
 app.MapGet("time3/utc", () => Results.Ok(DateTime.Now));
+app.MapGet("time4/utc", () => Results.Ok(DateTime.Now));
+
 
 app.UseHttpsRedirection();
 
