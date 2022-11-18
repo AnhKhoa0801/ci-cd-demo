@@ -5,7 +5,6 @@ on:
     branches:
       - master
 env:
-  AZURE_WEBAPP_NAME: ci-cd-demo
   AZURE_WEBAPP_PACKAGE_PATH: "./publish"
 jobs:
   publish:
