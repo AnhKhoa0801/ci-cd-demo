@@ -47,7 +47,7 @@ jobs:
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
         package: './deploy.zip'
   Qa:
-   runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     environment: QA
     needs: Dev
     steps:
